@@ -8,8 +8,12 @@ package practice02;
 
 public class PTra02_06 {
 	public static void main(String[] args) {
-		int x = 10;
+		long x = 10;
 		int y = 50;
+		int a=10;
+
+		x=y;
+		y=a;
 
 		System.out.println("x:" + x);
 		System.out.println("y:" + y);
