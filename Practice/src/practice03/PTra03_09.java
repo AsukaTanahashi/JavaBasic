@@ -8,6 +8,12 @@ package practice03;
 
 public class PTra03_09 {
 	public static void main(String[] args) {
+
+		java.util.Scanner scanner = new java.util.Scanner(System.in);
+
+		System.out.println("0～6までの数字を入力して下さい。");
+
+		int num = scanner.nextInt();
 		/*
 		 * ★ 以下の仕様に沿ってプログラムを完成させてください
 		 *
@@ -18,5 +24,30 @@ public class PTra03_09 {
 		 *
 		 * ※ プログラムは何行書いても良いです
 		 */
+		switch(num) {
+			case 0:
+				System.out.println("日曜");
+				break;
+			case 1:
+				System.out.println("月曜");
+				break;
+			case 2:
+				System.out.println("火曜");
+				break;
+			case 3:
+				System.out.println("水曜");
+				break;
+			case 4:
+				System.out.println("木曜");
+				break;
+			case 5:
+				System.out.println("金曜");
+				break;
+			case 6:
+				System.out.println("土曜");
+				break;
+			default:
+				System.out.println("0～6の整数を入力してください");
+		}
 	}
 }
